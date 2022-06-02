@@ -1,0 +1,42 @@
+Olá!
+Esse é o passo a passo para criar seu primeiro repositório no github para compartilhar seus projetos
+
+1) Passo a passo para instalar o Git
+
+- Baixar o Git no computador através do link https://git-scm.com/
+- Escolher o sistema operacional
+- Verificar se a versão baixada está correta pelo comando git --version (caso não seja a versão atual, apresentará erro)
+- Verificar se está com todos os comandos instalados através do comando git --help
+
+
+2) Criar uma conta no GitHub
+
+
+3) Passo a passo para criar o primeiro repositório no Git
+
+- Para iniciar o repositório crie uma nova pasta na área de trabalho
+- Clique com o botão direito na pasta e selecione git bash here para abrir uma linha de comando dentro da pasta
+- Para incluir o primeiro comando digite git init
+- Crie seu código e salve o arquivo na pasta
+- Use o git status para verificar se o git está atualizado e se o arquivo está incluído no controle de versão
+
+
+4) Como incluir um arquivo no controle de versão
+
+- Digite git add "nome do arquivo"
+- Confirme se o código foi atualizado através do comando git status
+
+5) Crie versões do código commit
+
+- Digit git commit -m "comentar o que foi feito na versão commit inicial"
+- Caso seja a primeira vez que você esteja utilizando o git no computador será necessário configurar o git através do comando: git config --global user.mail "seu email" ;  e git conig --global user.name "nome do usuário"
+
+
+6) Como subir arquivos para o GitHub
+
+- Usar o comando git push para enviar a primeira versão
+- Criar o link na nuvem onde será enviada as informações (no github crie um novo repositório com nome, descrição e definição da visibilidade de seu projeto por outras pessoas, adicione o arquivo read.me e clique em cread repository)
+- Copie o link de onde o código será enviado e  utilize o comando git remote add origin
+- Utilize o comando Git push
+- Copie o código gerado e cole seguindo o comando git push código copiado,  para definir a branch 
+- Faça o login  no github
